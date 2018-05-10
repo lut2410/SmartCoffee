@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Quản Lý Tài Khoản"
+            android:id="@+id/nav_tai_khoan"
+            android:icon="@drawable/ic_tin_tuc"
+            >
+        </item>
+        <item
+            android:title="Quản Lý Danh Mục"
+            android:id="@+id/nav_danh_muc"
+            android:icon="@drawable/ic_thi_truong_chung"
+            >
+        </item>
+        <item
+            android:id="@+id/nav_nghiep_vu"
+            android:title="Quản Lý Nghiệp Vụ"
+            android:icon="@drawable/ic_cafe_new">
+
+        </item>
+        <item
+            android:id="@+id/nav_thong_ke"
+            android:icon="@drawable/ic_gia_nong_san"
+            android:title="Thống Kê">
+        </item>
+        <!--<item-->
+            <!--android:title="Dữ Liệu - Dự Báo"-->
+            <!--android:id="@+id/nav_du_bao"-->
+            <!--android:icon="@drawable/ic_dubao">-->
+
+        <!--</item>-->
+
+    </group>
+    <item   android:title="More Sections">
+        <menu>
+
+            <item
+                android:id="@+id/nav_sign_out"
+                android:title="Đăng Xuất"
+                android:icon="@drawable/ic_goc_chia_se">
+            </item>
+        </menu>
+    </item>
+
+</menu>
